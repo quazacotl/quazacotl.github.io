@@ -1,0 +1,199 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+}
+
+header {
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu-link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu-item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.logo {
+    margin-top: 16px;
+    min-width: 100%;
+}
+
+.logo-txt {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.call-us {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 19px;
+    text-align: right;
+}
+
+.number {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 8px;
+    text-align: right;
+    line-height: 22px;
+}
+
+.call-us-btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    padding: 150px 0 131px 0;
+    background: url("../img/bg/bg-1st.png") center center/ cover no-repeat;
+}
+
+.promo-header {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.promo-subheader {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.promo-txt {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo-btn {
+    display: block;
+    margin: 118px auto 0;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-right: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.advant {
+    padding: 71px 0 65px 0;
+    min-height: 764px;
+}
+
+.advant-top {
+    margin: 0 auto;
+    width: 130px;
+    height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.advant-header {
+    margin-top: 38px;
+    margin-bottom: 5px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.advant-card {
+    margin-top: 35px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.icon-bg {
+    margin-right: 26px;
+    min-width: 113px;
+    min-height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.advant-icon {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.advant-txt {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.advant-card span {
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
